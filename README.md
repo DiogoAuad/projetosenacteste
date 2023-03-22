@@ -1,15 +1,20 @@
 
+<!doctype html>
+<html>
+    <head>
+        <time> Terceira página</time>
+        <meta charset="utf-8">
+    </head>
+     
+
 <?php include("C:/xampp2/htdocs/avancado/public/unidade_03/conectado.php"); ?>
 <?php
         $produtos = "SELECT produtoID, nomeproduto, tempoentrega, precounitario, imagempequena ";
         $produtos .= "FROM produtos ";
         $resultado = mysqli_query($conecta,$produtos);
 ?>
-<!doctype html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
         <title>Curso</title>
         
         <!-- estilo -->
