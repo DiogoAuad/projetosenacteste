@@ -1,4 +1,4 @@
-<!doctype html>
+
 <html>
     <head>
         <time> Terceira página</time>
